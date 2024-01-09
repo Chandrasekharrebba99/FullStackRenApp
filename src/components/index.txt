@@ -1,0 +1,17 @@
+Admin Module
+Admin Login to application and enters country state and city details.
+
+properte Module
+User Registers as a property owner and creates his own properties.
+And creates units for each property enters necessory data for unit 
+property owner can search properties and units  
+
+Tenent Module
+User Registers as a Tenent and prepares his profile.
+Tenent can search for units,can see individual unit details
+Tenent Aggriment Module.
+
+Once the Tenent like the unit and communicate the property owner.
+Property owner contact details we will show in the unit page.
+So the property owner and Tenent can prepare Aggriment
+

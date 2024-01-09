@@ -1,0 +1,54 @@
+.companypng{
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 25px;
+}
+
+
+.navbar {
+    background-color: #176eac;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  .signoutbtn{
+    background-color: rgb(251, 161, 161) !important;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    margin-right: 10px;
+  }
+ 
+  .brand-name {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    padding-right: 100px;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #d2e3d3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #030303; /* Change to your desired hover color */
+  }

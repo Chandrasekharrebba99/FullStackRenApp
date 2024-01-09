@@ -1,0 +1,90 @@
+
+.top-div-explore{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.explore-top-div{
+    width:70%;
+    background-color: rgb(61, 101, 154);
+ 
+    border:3px #ccc solid;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 3px;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.apply-filter-button{
+  background-color: rgb(7, 66, 46);
+}
+.explore-top-div-description-box{
+    background-color:rgb(240, 217, 167);
+    border-radius: 3px;
+    padding: 10px;
+    color: rgb(56, 56, 56);
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .filter-section {
+    margin-right: 20px;
+  }
+  
+  label {
+    margin-right: 5px;
+  }
+  
+
+
+  /* Select element */
+  /* FilterComponent.css */
+
+/* Reset default styles for the select element */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* Style when the select element is focused */
+  select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Style for the disabled select element */
+  select:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  /* Style for the options inside the select element */
+  option {
+    padding: 5px;
+  }
+  
+  /* Hover effect for options */
+  option:hover {
+    background-color: #f0f0f0;
+  }
+  

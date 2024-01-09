@@ -1,0 +1,13 @@
+.property-card13{
+    width: 60%;
+}
+.top-level-div-myproperties{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orders-top-div{
+    display: flex;
+    flex-direction: column;
+    color: rgb(58, 58, 58);
+}

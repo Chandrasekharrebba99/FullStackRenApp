@@ -1,0 +1,41 @@
+/* PropertyCard.css */
+
+.property-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(241, 230, 213);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border:3px #ccc solid;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .property-image {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    object-fit: cover;
+  }
+  
+  .property-details {
+    padding: 16px;
+  }
+  
+  .property-details h3 {
+    margin-bottom: 8px;
+  }
+  
+  .property-details p {
+    margin: 8px 0;
+  }
+  .Buy-Now-Button{
+    background-color: chocolate;
+  }

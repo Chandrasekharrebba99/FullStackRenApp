@@ -1,0 +1,75 @@
+.top-profile-div{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.validity-div{
+    display: flex;
+    color: #d9ebdb;
+    justify-content: center;
+}
+
+.validity-div-card{
+    background-color: #268b4a;
+    margin: 20px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.custom-profile-card {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .greentick-svg{
+    height: 20px;
+    width: 20px;
+  }
+  
+
+  .documnet-ver-cont{
+    padding: 15px;
+  }
+  
+  .custom-cover-photo {
+    height: 100px;
+    background-color: #3498db;
+  }
+  
+  .custom-profile-pic {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #ecf0f1;
+    margin: -40px auto 0;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .img-cont-div{
+    text-align: center;
+  }
+  .custom-info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .custom-info h2 {
+    margin: 0;
+    color: #2c3e50;
+  }
+  
+  .custom-info p {
+    margin: 5px 0 0;
+    color: #7f8c8d;
+  }

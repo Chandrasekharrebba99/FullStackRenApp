@@ -1,0 +1,23 @@
+/* Card.css */
+.custom-card {
+  border: 1px solid #ddd;
+  background-color: rgb(10, 145, 255);
+  padding: 10px;
+  margin: 10px;
+  width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.address-line {
+  margin: 5px 0;
+}

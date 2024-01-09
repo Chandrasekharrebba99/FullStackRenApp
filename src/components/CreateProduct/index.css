@@ -1,0 +1,35 @@
+
+.create-form-property{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin: 24px;
+    width:600px;
+    background-color: rgb(79, 146, 204);
+}
+
+.d-f-c{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 30px;
+}
+
+.property-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(130, 197, 255);
+}
+/* .loadingspinner{
+    position: fixed !important;
+    z-index: 5 !important;
+    left: 400px !important;
+    top: 400px !important;
+    
+} */
+
+.DataSubmitedH1{
+    color: aliceblue;
+}
