@@ -28,14 +28,23 @@ Key Features:
 How To Run The Application:
 Step1:
 git clone https://github.com/Chandrasekharrebba99/FullStackRenApp.git
+
 cd to the APP
+
 command1: npm install
+
 command2: npm start
+
 the above will start the client react App
+
 how to run Back end:
+
 cd to server inside the client app
+
 command: py manage.py runserver 0.0.0.0:8000
+
 Run with your IP Address which is acts as a host
+
 Please check The Domain address and replace the client API URL Request with your IP Address
 
 
