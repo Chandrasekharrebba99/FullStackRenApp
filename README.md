@@ -1,15 +1,22 @@
 1. Project Overview:
+   
 Develop and implement a module for real estate management system.
 Full Stack Application Django+React
+
 Technologies that I used:
+
 FrontEnd : Reactjs,HTML5,CSS3,JSES6,
 BackEnd : Django, Django Rest Framework, Django CORS,
 DataBase : SQLITE3,
 Plugins and dependencies: uuid v4, react shimmer Loading, react Loading, React Router Dom, Django
 Rest Framework.
+
+
+
 My Application Flow
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://www.youtube.com/watch?v=nQmr9cq9fdA&ab_channel=chandurebba
 
 
 
