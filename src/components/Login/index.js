@@ -41,7 +41,7 @@ const analytics = getAnalytics(app);
 
 
 const Login = () => {
-    // State for storing Google user data
+    
     const [Gdata, setGdata] = useState(null);
     const [isloading, setisloading] = useState(false);
     const [userexist, setUserexit] = useState(false);
@@ -63,9 +63,9 @@ const Login = () => {
     
       const handleSubmitForm = (e) => {
         e.preventDefault();
-        // Perform registration logic with formData
+     
         console.log('Registration data:', formData);
-        // You can send this data to a server or handle it according to your needs
+        
       };
    
     const handleSubmit = async(Gdata) => {
@@ -102,7 +102,7 @@ const Login = () => {
             window.location.href = link;
             console.log('Data sent successfully.');
           }else if(response.status === 205){
-            // redirect to home
+           
           }else {
             console.error('Error sending data.');
           }
@@ -155,40 +155,20 @@ const Login = () => {
     };
    
    
-    // Access the history object for navigation
-   
-  
-    // Function to handle Google sign-in
-    // const onCheckifUserExist = async(Guid1)=>{
-    //   try {
-    //     const response = await fetch(`http://localhost:4000/profile/isexist/?guid='${Guid1}'`);
-    //     console.log(response);
-    //     if (response.status === 200) {
-    //       console.log('Already a User'); 
-    //       const userData = await response.json();
-          
-    //     } else {
-    //       setUser("false");
-    //       console.error('Not a user.');
-    //     }
-    //   } catch (error) {
-    //     setUser("servererror")
-    //     console.error('Error:', error);
-    //   }
-    // }
+ 
 
     const handleGoogleSignIn = async () => {
-      // Initialize Firebase authentication and Google provider
+      
       console.log("Handle Google button")
       const auth = getAuth();
       const provider = new GoogleAuthProvider();
   
       try {
-        // Sign in with Google popup
+      
         const result = await signInWithPopup(auth, provider);
         console.log(result)
   
-        // Extract user data from the result
+       
         const Gdata1 = {
           name: result.user.displayName,
           createdate: result.user.metadata.creationTime,
@@ -199,16 +179,13 @@ const Login = () => {
 
         const isuserExist =  handleSubmit(Gdata1)
   
-        // Store user data in local storage
-        // localStorage.setItem('Gdata', JSON.stringify(Gdata1));
-  
-        // Log success and update state
+       
+     
         console.log('Google Sign-In Success');
         setGdata(Gdata1);
-        // onCheckifUserExist(result.user.uid);
-        // Redirect to the profile page
+       
       } catch (error) {
-        // Handle Google sign-in error
+     
         console.error('Google Sign-In Error:', error);
       }
     };
@@ -303,11 +280,7 @@ const Login = () => {
     
           
         </div> 
-        {/* <div>
-            <button type="button" className="google-sign-in-button"  onClick={handleGoogleSignIn}>
-                Sign in with Google
-            </button>
-        </div> */}
+ 
         {isloading && <Loading/>}
         
       </div>
