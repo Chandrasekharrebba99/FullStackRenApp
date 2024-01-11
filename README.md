@@ -47,4 +47,6 @@ Run with your IP Address which is acts as a host
 
 Please check The Domain address and replace the client API URL Request with your IP Address
 
+***Importent while creating propery the image URL should not exceed more than 250 Charecters please select all Fields in the form including BHK
+
 
