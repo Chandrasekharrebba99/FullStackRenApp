@@ -11,6 +11,7 @@ DataBase : SQLITE3,
 Plugins and dependencies: uuid v4, react shimmer Loading, react Loading, React Router Dom, Django
 Rest Framework.
 
+Here Tenant and Property Owner Have the Same Profile Page
 
 
 My Application Flow
@@ -46,6 +47,7 @@ command: py manage.py runserver 0.0.0.0:8000
 Run with your IP Address which is acts as a host
 
 Please check The Domain address and replace the client API URL Request with your IP Address
+
 
 ***Importent while creating propery the image URL should not exceed more than 250 Charecters please select all Fields in the form including BHK
 
