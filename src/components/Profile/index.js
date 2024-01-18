@@ -28,13 +28,9 @@ const Profile =(props)=>{
         created_at: '',
         email:''
       });
-   // Window.prototype
 
    const handleFileChange = (event) => {
-    // Access the selected file from the input event
     const file = event.target.files[0];
-
-    // Update the state with the selected file
     setSelectedFile(file);
   };
 
@@ -44,7 +40,7 @@ const Profile =(props)=>{
     console.log(address);
   
     const fetchData = async () => {
-      const userId = 'your_user_id'; // Replace with the actual user ID
+      const userId = 'your_user_id'; 
   
       try {
         const response = await fetch(`http://192.168.1.59:8000/user_profile/${address}/`);
@@ -52,9 +48,9 @@ const Profile =(props)=>{
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
         const responseData = await response.json();
-        // console.log(responseData);
+       
         setUserData(responseData);
-        setData(responseData); // Assuming setData is a state update function
+        setData(responseData); 
       } catch (error) {
         console.log(error);
       }
@@ -115,7 +111,7 @@ const Profile =(props)=>{
                 <input
                     type="file"
                     id="fileInput"
-                    accept=".jpg, .jpeg, .png, .pdf" // Specify the accepted file types if needed
+                    accept=".jpg, .jpeg, .png, .pdf" 
                     onChange={handleFileChange}
                 />
                 
